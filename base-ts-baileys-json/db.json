@@ -1272,5 +1272,194 @@
     "options": {},
     "from": "573202900920",
     "refSerialize": "bbb14ab0dc4d6b694ba0c9922d98cd97"
+  },
+  {
+    "ref": "ans_77cbeff7-d976-48e6-bb93-a44ad74d3bf9",
+    "keyword": "key_24604093-2fbe-4178-948d-7ae63cc016c6",
+    "answer": "🙌 Hello welcome to this *Chatbot*",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "7cdf16cac8ed6ba50165dc459b4b079a",
+    "from": "573106294445"
+  },
+  {
+    "ref": "ans_7497a369-e22c-4150-ad87-0f1ab5ebacf0",
+    "keyword": "ans_77cbeff7-d976-48e6-bb93-a44ad74d3bf9",
+    "answer": "I share with you the following links of interest about the project\n👉 *doc* to view the documentation",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 800,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "b55cadf4d3445a8d9f56bf53a946f663",
+    "from": "573106294445"
+  },
+  {
+    "ref": "ans_9d9acd7a-73eb-440c-8941-4491b4ba46fe",
+    "keyword": "ans_7497a369-e22c-4150-ad87-0f1ab5ebacf0",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 800,
+      "nested": [
+        {
+          "ref": "key_c98c901b-d21b-4800-b750-4a1e76a3deac",
+          "keyword": "doc",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "5a8225144cb89933cbe2a9a3d251d9a2"
+        },
+        {
+          "ref": "ans_ca24af37-91e7-4e1b-8a7d-b6e1528ebb3d",
+          "keyword": "key_c98c901b-d21b-4800-b750-4a1e76a3deac",
+          "answer": "You can see the documentation here\n📄 https://builderbot.app/docs \n\nDo you want to continue? *yes*",
+          "options": {
+            "buttons": [],
+            "capture": true,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "6c0d0bc57615f31b89cf4dc39ce1bba7"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "728055c54ac3dfadee688e337d03f825",
+    "from": "573106294445"
+  },
+  {
+    "ref": "684273bd-cb27-4705-9213-2b9d887f9a79",
+    "keyword": "728055c54ac3dfadee688e337d03f825",
+    "answer": "Doc",
+    "options": {},
+    "from": "573106294445",
+    "refSerialize": "d11fb00fe6cd908c8560f0c85ad7835a"
+  },
+  {
+    "ref": "ans_ca24af37-91e7-4e1b-8a7d-b6e1528ebb3d",
+    "keyword": "key_c98c901b-d21b-4800-b750-4a1e76a3deac",
+    "answer": "You can see the documentation here\n📄 https://builderbot.app/docs \n\nDo you want to continue? *yes*",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "6c0d0bc57615f31b89cf4dc39ce1bba7",
+    "from": "573106294445"
+  },
+  {
+    "ref": "ccaa2de7-7aa2-475e-a6f5-563844fa6205",
+    "keyword": "6c0d0bc57615f31b89cf4dc39ce1bba7",
+    "answer": "yes",
+    "options": {},
+    "from": "573106294445",
+    "refSerialize": "bfe5db6779ae05c7a9831422a4572fda"
+  },
+  {
+    "ref": "ans_26f0f5ee-cfb9-40f2-8720-23134a9a99ae",
+    "keyword": "key_7a5962b3-0a99-4f98-a163-f92e6b88964f",
+    "answer": "What is your name?",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b8d55a51d8a2b47eaf109162cc88e45c",
+    "from": "573106294445"
+  },
+  {
+    "ref": "38b7a323-74ea-4c19-99f1-54d43095772f",
+    "keyword": "b8d55a51d8a2b47eaf109162cc88e45c",
+    "answer": "Andrés Pinto",
+    "options": {},
+    "from": "573106294445",
+    "refSerialize": "9ac224f4f657ab92d60f7d87f33bf476"
+  },
+  {
+    "ref": "ans_1a75f23f-8955-4769-82d8-89b9cf5d40c1",
+    "keyword": "ans_26f0f5ee-cfb9-40f2-8720-23134a9a99ae",
+    "answer": "What is your age?",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "ca0ef457fd1c7d8e8eb996f1ee9e8e27",
+    "from": "573106294445"
+  },
+  {
+    "ref": "ans_945fc930-2169-41a7-9fa1-4533237c9781",
+    "keyword": "ans_1a75f23f-8955-4769-82d8-89b9cf5d40c1",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "buttons": [],
+      "capture": true,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "42a4d4d9d2a9da3c9f0fedda5a4acb85",
+    "from": "573106294445"
+  },
+  {
+    "ref": "78dfe5d0-d882-4052-9ba3-298fb3731350",
+    "keyword": "42a4d4d9d2a9da3c9f0fedda5a4acb85",
+    "answer": "28",
+    "options": {},
+    "from": "573106294445",
+    "refSerialize": "34a5afbf76cee3cff6a35dd1d1712d46"
+  },
+  {
+    "ref": "ans_e00f75df-15e6-484e-9e69-0ef83c624684",
+    "keyword": "ans_945fc930-2169-41a7-9fa1-4533237c9781",
+    "answer": "__call_action__",
+    "options": {
+      "buttons": [],
+      "capture": false,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59b7926fb4c67aea54673a11f4020237",
+    "from": "573106294445"
+  },
+  {
+    "ref": "68f44967-75de-4b89-a92f-0bd0e1682d05",
+    "keyword": null,
+    "answer": "Andrés Pinto, thanks for your information!: Your age: 28",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573106294445",
+    "refSerialize": "60d28848878a49c3d188d6ff4ef7e479"
   }
 ]

@@ -13,19 +13,24 @@
   "keywords": [],
   "dependencies": {
     "@builderbot/bot": "1.4.1",
+    "@builderbot/database-json": "1.4.1",
     "@builderbot/provider-baileys": "1.4.1",
-    "@builderbot/database-json": "1.4.1"
+    "googleapis": "^171.4.0",
+    "luxon": "^3.7.2",
+    "node-cron": "^4.2.1"
   },
   "devDependencies": {
+    "@types/luxon": "^3.7.1",
     "@types/node": "^25.0.0",
-    "typescript-eslint": "^8.0.0",
+    "@types/node-cron": "^3.0.11",
     "eslint": "^9.0.0",
     "eslint-plugin-builderbot": "latest",
-    "rollup": "^4.10.0",
     "nodemon": "^3.1.11",
+    "rollup": "^4.10.0",
     "rollup-plugin-typescript2": "^0.36.0",
     "tsx": "^4.7.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "typescript-eslint": "^8.0.0"
   },
   "author": "",
   "license": "ISC"
